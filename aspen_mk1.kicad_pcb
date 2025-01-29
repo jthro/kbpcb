@@ -43704,7 +43704,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C6"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "B.SilkS")
 			(uuid "e12088e6-738e-4f4a-8593-1173937b1e31")
 			(effects
@@ -43716,7 +43716,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 0 -1.68 360)
+			(at 0 -1.68 0)
 			(layer "B.Fab")
 			(uuid "082a2c5d-5854-4a42-9848-78ddb6efef0b")
 			(effects
@@ -43875,7 +43875,7 @@
 			(uuid "e448962f-c1fa-4daa-a7d6-bc04f7a13471")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "51cdcb45-1047-4fa4-bf39-3eef371db599")
 			(effects
@@ -44449,7 +44449,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "B.SilkS")
 			(uuid "2b05e393-3b9a-404e-9ec5-d83a97943271")
 			(effects
@@ -44461,7 +44461,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 -1.68 360)
+			(at 0 -1.68 0)
 			(layer "B.Fab")
 			(uuid "5ea460a3-7c8c-4046-86f9-6aad1fa55ed9")
 			(effects
@@ -44620,7 +44620,7 @@
 			(uuid "abec1909-3150-4604-8d55-3bcfe1a7ae68")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "87053e51-80d4-4386-9431-ab4bba085c10")
 			(effects
@@ -44661,16 +44661,89 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 13.49375 -164.30625)
-		(end 319.88125 -61.11875)
+	(gr_line
+		(start 314.88125 -61.11875)
+		(end 18.49375 -61.11875)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "7223b287-497f-42da-945c-7c380ccb102b")
+		(uuid "2d2fce67-a91d-4844-8fda-b94bfc15b1bb")
+	)
+	(gr_arc
+		(start 319.88125 -66.11875)
+		(mid 318.416784 -62.583216)
+		(end 314.88125 -61.11875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "30a6204e-e7a5-4ae7-b75d-60fddd85abef")
+	)
+	(gr_arc
+		(start 314.88125 -164.30625)
+		(mid 318.416799 -162.841799)
+		(end 319.88125 -159.30625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3d98bb77-f78a-4f99-ab8d-60def904cf95")
+	)
+	(gr_arc
+		(start 13.49375 -159.30625)
+		(mid 14.958216 -162.841784)
+		(end 18.49375 -164.30625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "58ca9714-309e-4dd4-947b-8628480b68fc")
+	)
+	(gr_line
+		(start 13.49375 -66.11875)
+		(end 13.49375 -159.30625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a1127999-6d8d-41fe-95c4-01852dfd9825")
+	)
+	(gr_arc
+		(start 18.49375 -61.11875)
+		(mid 14.958216 -62.583216)
+		(end 13.49375 -66.11875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "be2bf559-863c-45bb-a5a1-de4f010646ce")
+	)
+	(gr_line
+		(start 18.49375 -164.30625)
+		(end 314.88125 -164.30625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ca3a45d1-b68d-4b64-9b6a-3321e403276d")
+	)
+	(gr_line
+		(start 319.88125 -159.30625)
+		(end 319.88125 -66.11875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ec77eaea-75f1-41cc-a10e-ae0e99d937d6")
 	)
 	(segment
 		(start 122.2375 -72.23125)
